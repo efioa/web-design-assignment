@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    margin: 0px 35px;
+   text-align: center;
+   padding: 10px;
+   font-weight: bolder;
+
+}
+.navbar {
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-links li{
+    margin: 0px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:whitesmoke;
+    margin: 6px 0;
+    transition: 0.4s;
+    
+  }
+header {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../images/womens-powerlifting-header.webp);
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header-content {
+    margin-bottom:-360px;
+    color: cornflowerblue;
+    text-align: center;
+    
+    
+}
+.header-content h1 {
+    font-size: 10vmin;
+    color: whitesmoke;
+  
+}
+.line {
+    width: 300px;
+    height: 6px;
+    background: cornflowerblue;
+    margin: 15px auto;
+    border-radius: 4px ;
+
+}
+
+    
+.ctn {
+    padding: 6px 15px;
+    background: cornflowerblue;
+    border-radius: 30px;
+    
+    color:whitesmoke;
+}
+
+  
+/*media device*/
+@media (max-width: 850px){
+
+
+.navbar{
+    padding: 0;
+}
+.logo{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.nav-links{
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+}
