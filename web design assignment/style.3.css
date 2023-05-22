@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navbar {
+    display: flex;
+    position:absolute;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-links {
+    display:flex;
+    align-items:flex-start;
+    font-weight: bold;
+   
+ }
+.nav-links li{
+    margin: 0 35px;
+    font-size: medium;
+   
+    
+}
+ul{
+    list-style: none;
+   }
+ul li a:hover{
+    color: cornflowerblue;
+}
+.logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700px;
+    align-items: flex-start;
+    
+}
+
+header {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../images/women-model-people-girl-photography-physical-fitness-1621391-pxhere.com.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.header-content {
+    margin-bottom: 150px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 6vmin;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-content,h1 {
+    font-size: 4vmin;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line {
+    width:150px;
+    height: 10px;
+    color:cornflowerblue;
+    margin: 30px auto;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+.text-info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4 {
+    align-items: center;
+    color: cornflowerblue;
+    padding: 20px auto;
+    font-size: 4vmin;
+}
+.section {
+    width: 80%;
+    margin: 80px auto;
+}
+.section-header, h3 {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    padding-bottom: 15px;
+
+}
+.section-tagline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+}
+.grid-container {
+    columns: 3 250px;
+    gap: 15px;
+
+}
+.grid-container, img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+
+}  
+form {
+
+}
+input[type=text] {
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 3.7px
+  }
+  input[type=email] {
+       border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    padding:3.7px;
+  }
+input[type=button] {
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    padding:4px;
+    
+}
+
+   /*events*/
+.section {
+    width: 80%;
+    margin:80px auto;
+}
+
+.title, h4 {
+    text-align: center;
+    font-size:4vmin;
+    color:cornflowerblue;
+}
+.section, img {
+    width: 80%;
+    height:
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row, .columns {
+    display: flex;
+     align-items: center;
+}
+.row, .columns, img {
+    width: 80%;
+
+}
+.footer-nav {
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-nav .footer-logo{
+    width: 100%;
+    
+}
+ {
+    color: cornflowerblue;
+}
+/*mobile device*/
+@media only screen and (max-width:850px){
+    padding: 0;
+}
+
